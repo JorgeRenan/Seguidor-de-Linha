@@ -72,9 +72,11 @@ Segue imagens do protótipo pronto:
 
 ![p_20170919_204646](https://user-images.githubusercontent.com/32148244/30933071-ce4b0488-a39f-11e7-9ea5-f43e4a5ad919.jpg)
 
-Segue vídeos da realização do teste final:
+Segue link dos vídeos da realização do teste final:
 
+https://youtu.be/NQxjA7YswCo
 
+https://youtu.be/DsVc7cPSmqg
 
 # Conclusão
 Na disciplina de robótica, utilizando os conhecimentos adquiridos nesta disciplina e durante o curso de engenharia de controle e automação, podemos montar e programar este protótipo com êxito. Fazendo com que ele realizasse os três circuitos, que foram utilizados como obtenção parcial da nota, com perfeição e aplicando controle PID para realização dos ajustes para cada pista.
