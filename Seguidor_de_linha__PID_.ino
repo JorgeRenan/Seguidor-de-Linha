@@ -57,9 +57,6 @@ void loop() {
   int c = digitalRead(C);
   int l = digitalRead(R);
   
-  //Serial.println(l);
-  //Serial.println(r);
- 
 //Inversão dos dados////
   if(l == 1){
     l = 0;
@@ -127,7 +124,6 @@ void loop() {
 
 ////Funções/////
 void frente(int a, int b){
-  //a = (int)a*0.4;
   digitalWrite(IN1, 0);
   digitalWrite(IN2, 1);
   digitalWrite(IN3, 0);
@@ -156,15 +152,4 @@ void direita(int a, int b){
 
   analogWrite(ENA, a);//-20
   analogWrite(ENB, b+70);//+50
-  
-}
-
-void parar(){
-  
-  digitalWrite(IN1, LOW);
-  digitalWrite(IN2, LOW);
-  digitalWrite(IN3, LOW);
-  digitalWrite(IN4, LOW);
-  analogWrite(ENA, LOW);
-  analogWrite(ENB, LOW);
-}
+ }
