@@ -22,8 +22,10 @@ A ação derivativa tem sua resposta  proporcional à taxa de variação da vari
 # Material Utilizado
 Para o projeto é utilizado um aruduino que é  uma plataforma de prototipagem eletrônica de hardware livre e de placa única, projetada com um microcontrolador Atmel AVR com suporte de entrada/saída embutido, uma linguagem de programação padrão, a qual tem origem em Wiring, e é essencialmente C/C++.
 
+![image](https://user-images.githubusercontent.com/32148244/30890496-5d0e6976-a2fb-11e7-9221-f2f6f4a966d4.png)
 
-Integrado ao arduino é utilizado uma placa de infravermelho 
+Integrado ao arduino é utilizado uma placa de infravermelho, esta placa contém 3 sensores ópticos ligados lado a lado. Conforme a linha for detectada (ou não), cada sensor enviará ao Arduino as informações sobre a intensidade do sinal infravermelho refletido, e o programa usará essas informações para calcular a velocidade de cada motor.
+
 
 
 # Desenvolvimento
