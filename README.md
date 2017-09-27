@@ -65,6 +65,16 @@ Funções são criadas para facilitar a vida do programador, para que assim ele 
 Haverá situações onde será necessário a utilização de ganhos nas velocidades do motor. Especificamente, será quando as velocidades dos motores forem menores que zero ou pelo valor escolihdo para o controle.
 
 # Teste e Resultados
-Video
+
+Segue imagens do protótipo pronto:
+
+![p_20170919_204636](https://user-images.githubusercontent.com/32148244/30933070-ce455dbc-a39f-11e7-9a3f-11a366e967d3.jpg)
+
+![p_20170919_204646](https://user-images.githubusercontent.com/32148244/30933071-ce4b0488-a39f-11e7-9ea5-f43e4a5ad919.jpg)
+
+Segue vídeos da realização do teste final:
+
+
+
 # Conclusão
 Na disciplina de robótica, utilizando os conhecimentos adquiridos nesta disciplina e durante o curso de engenharia de controle e automação, podemos montar e programar este protótipo com êxito. Fazendo com que ele realizasse os três circuitos, que foram utilizados como obtenção parcial da nota, com perfeição e aplicando controle PID para realização dos ajustes para cada pista.
