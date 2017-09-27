@@ -26,7 +26,9 @@ Para o projeto é utilizado um aruduino que é  uma plataforma de prototipagem e
 
 Integrado ao arduino é utilizado uma placa de infravermelho, esta placa contém 3 sensores ópticos ligados lado a lado. Conforme a linha for detectada (ou não), cada sensor enviará ao Arduino as informações sobre a intensidade do sinal infravermelho refletido, e o programa usará essas informações para calcular a velocidade de cada motor.
 
+![image](https://user-images.githubusercontent.com/32148244/30890555-99c9c950-a2fb-11e7-9b60-b21ccccc54d2.png)
 
+Para acionamento das rodas, foi utilizado 2 servo motores
 
 # Desenvolvimento
 No inicio da programação define-se quais pinos irão ser utilizados no projeto.
