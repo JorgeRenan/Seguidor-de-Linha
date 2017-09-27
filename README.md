@@ -8,10 +8,14 @@ Este é um relatório correspondente as práticas de laboratório da disciplina 
 
 # Fundamentação Teórica
 O controlador proporcional integral derivativo, conhecido populamente como controlador PID ou simplesmente PID, é uma estratégia de controle de processos que une as ações derivativa, integral e proporcional, fazendo com que o sinal de erro diminua pela ação proporcional, seja zerado pela ação integral e obtenha uma antencipativa na velocidade pela ação derivativa.
+
 ![image](https://user-images.githubusercontent.com/32148244/30890172-37492e3a-a2f9-11e7-8d54-d9a767ae875c.png)
+
 No controle PID cada ação desenvolve uma função determinada.
 A ação proporcional elimina as oscilações da variável, tornando o sistema estável, mas não garante que a mesma esteja no valor desejado (setpoint), esse desvio é denominado off-set. A ação proporcional trabalha corrigindo o erro do sistema, multiplicando o ganho proporcional pelo erro, dessa forma agindo com uma maior amplitude de correção a fim de manter a estabilidade da variável.
+
 A ação integral elimina o desvio de off-set, fazendo com que a variável permaneça próximo ao valor desejado para o sistema mesmo após um distúrbio,  ou seja a variável permanece próximo ao set-point mesmo que ocorra uma variação brusca nas condições de operação. A ação integral realiza a integração do erro no tempo, portanto quanto maior for o tempo de permanência do erro no sistema, maior será a amplitude da ação integral.
+
 A ação derivativa tem sua resposta  proporcional à taxa de variação da variável do processo, aumentando a velocidade de resposta do sistema caso a presença do erro seja detectada. Logo, em sistemas de resposta lenta como controle de temperatura, a ação derivativa permite antecipar o aumento do erro e aumentar a velocidade de resposta do sistema. Quando o sistema a ser controlado possui maior velocidade de resposta, como por exemplo controle de rotação de motores e controle de vazão de fluidos, a ação derivativa pode ser desativada, pois não há necessidade de antecipar a resposta ao erro, pois o sistema pode corrigir rapidamente seu valor, para desativar a ação derivativa basta tornar seu valor igual a zero.
 É comum a utilização das combinações P+I e P+I+D, de modo geral em sistemas com boa velocidade de resposta como pressão, vazão e rotação de motores. Para obter um controle mais rápido e preciso os sistemas com resposta lenta como os de controle de temperatura devem utilizar o controlador PID.
 
