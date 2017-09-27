@@ -33,7 +33,7 @@ Para acionamento das rodas, foi utilizado 2 servo motores, responsavéis pela mo
 ![image](https://user-images.githubusercontent.com/32148244/30890615-ef4ed7f8-a2fb-11e7-947b-0bd28169a80d.png)
 
 A alimentação do arduino e motores foi através de um pack de baterias.
-
+![image](https://user-images.githubusercontent.com/32148244/30890689-5dc3bdac-a2fc-11e7-9c75-04d0bf29c6ea.png)
 
 # Desenvolvimento
 No inicio da programação define-se quais pinos irão ser utilizados no projeto.
