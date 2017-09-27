@@ -28,7 +28,12 @@ Integrado ao arduino é utilizado uma placa de infravermelho, esta placa contém
 
 ![image](https://user-images.githubusercontent.com/32148244/30890555-99c9c950-a2fb-11e7-9b60-b21ccccc54d2.png)
 
-Para acionamento das rodas, foi utilizado 2 servo motores
+Para acionamento das rodas, foi utilizado 2 servo motores, responsavéis pela movimentação do carro.
+
+![image](https://user-images.githubusercontent.com/32148244/30890615-ef4ed7f8-a2fb-11e7-947b-0bd28169a80d.png)
+
+A alimentação do arduino e motores foi através de um pack de baterias.
+
 
 # Desenvolvimento
 No inicio da programação define-se quais pinos irão ser utilizados no projeto.
